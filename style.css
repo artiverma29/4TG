@@ -12,8 +12,8 @@
   /* Colors */
   --white-color: #fff;
   --dark-color: #252525;
-  --primary-color: #a90525;
-  --secondary-color: #f3961c;
+  --primary-color: #c7072e;
+  --secondary-color: #0a0801;
   --light-pink-color: #faf4f5;
   --medium-gray-color: #ccc;
 
@@ -139,6 +139,11 @@ header .navbar {
     margin: 20px 0 40px;
 }
 
+.hero-section .hero-details .buttons {
+    display: flex;
+    gap: 23px;
+}
+
 .hero-section .hero-details .button {
     padding: 10px 26px;
     border: 2px solid transparent;
@@ -146,7 +151,20 @@ header .navbar {
     border-radius: var(--border-radius-m);
     background: var(--secondary-color);
     font-weight: var(--font-weight-medium);
+    transition: 0.3s ease;
+}
 
+.hero-section .hero-details .button:hover,
+.hero-section .hero-details .contact-us {
+    color: var(--white-color);
+    border-color: var(--white-color);
+    background: transparent;
+}
+
+.hero-section .hero-details .contact-us:hover {
+    color: var(--primary-color);
+    border-color: var(--secondary-color);
+    background: var(--secondary-color);
 }
 
 .hero-section.hero-image-wrapper {
