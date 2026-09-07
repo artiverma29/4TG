@@ -177,6 +177,13 @@ header .navbar {
     margin-right: 30px;
 }
 
+/* about section styling */
+.about-section {
+    padding: 120px 0;
+    background: var(--light-pink-color);
+    
+}
+
 /*makes it responsive. like I just started here */ 
 
 @media screen and (max-width: 1920px) {
